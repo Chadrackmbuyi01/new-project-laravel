@@ -40,8 +40,8 @@
     </div>
 
     @else
-    <div style="border: 3px solid black;">
-        <h2>Register</h2>
+    <div style="border: 3px solid black">
+        <h2>User Registration</h2>
         <form action="/register" method="POST">
         @csrf
             <input name="name" type="text" placeholder="name">
